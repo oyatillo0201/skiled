@@ -61,6 +61,7 @@ body {
   line-height: 28px;
   background-color: #fff;
   color:  var(--text-color);
+  overflow-x: hidden;
 }
 
 img {
@@ -79,6 +80,7 @@ img {
 }
 
 .button {
+  display: inline-block;
   padding: 14px 32px;
   border-radius: 28px;
   font-weight: 700;
@@ -307,6 +309,8 @@ color: var(--title-color);
   margin-bottom: 80px;
   background-color: #fff;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .check {
@@ -357,6 +361,7 @@ color: var(--title-color);
   font-weight: 700;
   color: #F74780;
   text-decoration: none;
+  margin-top: auto;
 }
 
 .index-feature__link:hover {
