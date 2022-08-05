@@ -89,41 +89,41 @@ img {
   white-space: nowrap;
 }
 
-.button__dark {
+.button--dark {
   background-color: var(--title-color);
 }
 
-.button__dark:hover {
+.button--dark:hover {
   background-color: var(--grey-color);
 }
 
-.button__dark:active {
+.button--dark:active {
   opacity: 0.6;
 }
 
-.button__premium {
+.button--premium {
   padding: 19px 31px 16px 32px;
   border-radius: 31.5px;
   background-image: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);;
 }
 
-.button__premium:hover {
+.button--premium:hover {
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);;
 }
 
-.button__premium:active {
+.button--premium:active {
   opacity: 0.6;
 }
 
-.button__pink {
+.button--pink {
   background-image: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);;
 }
 
-.button__pink:hover {
+.button--pink:hover {
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
 }
 
-.button__pink:active {
+.button--pink:active {
   opacity: 0.6;
 }
 
